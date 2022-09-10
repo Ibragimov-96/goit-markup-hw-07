@@ -1,0 +1,36 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 106px;
+  }
+  
+  .client__list {
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    gap: 30px;
+    flex-basis: calc((100% - 30px * 5) / 6);
+  }
+  
+  .client__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    color: #afb1b8;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: currentColor;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    transition: color 250ms var(--cubik);
+     &:hover,
+     &:focus{
+      color: var(--accent-color);}
+  }
+  
+
+  
+  .client__icon {
+    display: block;
+    fill: currentColor;
+  }
