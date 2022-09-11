@@ -29,6 +29,10 @@ address {
   margin-top: 0;
   margin-bottom: 0;
   gap: 9px;
+  & li:not(:last-child){
+    margin-bottom: 9px;
+  }
+  
 }
 
 .address__link-address {

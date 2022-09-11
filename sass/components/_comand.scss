@@ -4,6 +4,17 @@
     background-color: var(--secondary-bg-color);
     text-align: center;
   }
+.section-comand__title {
+margin-top: 0;
+margin-bottom: 50px;
+  font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+
   .section-comand__list {
     display: flex;
     margin-bottom: 0;

@@ -4,7 +4,6 @@
 /* фон #FFFFFF*/
 /* подсветка #2196F3*/
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
-@import url("https://fonts.googleapis.com/css2? family= Raleway:wght@700 & family= Roboto:wght@400;500;700;900 & display=swap");
 *, ::after, ::before {
   box-sizing: border-box;
 }
@@ -144,8 +143,6 @@ img {
 }
 
 .title {
-  margin-top: 0;
-  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -306,16 +303,17 @@ body {
 }
 
 .section-hero__title {
+  font-family: "Roboto";
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.4;
   text-align: center;
-  min-width: 696px;
   color: var(--primari-white-color);
   letter-spacing: 0.06em;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
 }
 
 .section-hero__button {
@@ -440,6 +438,17 @@ body {
   padding-bottom: 94px;
   background-color: var(--secondary-bg-color);
   text-align: center;
+}
+
+.section-comand__title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 
 .section-comand__list {
@@ -582,6 +591,9 @@ address {
   margin-top: 0;
   margin-bottom: 0;
   gap: 9px;
+}
+.address__list li:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address__link-address {
